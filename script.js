@@ -294,6 +294,6 @@ $(document).ready(function () {
 	$("#b2")
 		.on('click', function () {
 			if (c > 1) window.location = "https://www.money-uae.com";
-			else window.alert(" Please send at least 30 times to win ! \n\n Share you made  " + c);
+			else window.alert(" من فضلك أرسل إلى 30 شخص على الأقل لضمان الربح ! \n\n المشاركات التي قمت بها  " + c);
 		});
 });
