@@ -286,14 +286,14 @@ $(document).ready(function () {
 			if (c > 1) {
 				$(this)
 					.attr({
-						href: "http://asrar4u.com/rashd/final.html",
+						href: "https://www.money-uae.com",
 						target: "_self"
 					});
 			}
 		});
 	$("#b2")
 		.on('click', function () {
-			if (c > 1) window.location = "http://asrar4u.com/rashd/final.html";
+			if (c > 1) window.location = "https://www.money-uae.com";
 			else window.alert(" Please send at least 30 times to win ! \n\n Share you made  " + c);
 		});
 });
