@@ -1,5 +1,5 @@
 
-var texts = [" Sheikh Mohammed Bin Rashid Al Maktoum Competition, answer the questions and win $ 20000 from Sheikh Mohammed bin Rashid Al Maktoum .. ((Answer on 3 Questions)) Join now The number of winners is limited  --> https://www.money-uae.com "];
+var texts = [" مسابقة الشيخ محمد بن راشد ال مكتوم أجب عن ثلات أسألة دينية و فز ب 20000 دولار مهداة من الشيخ محمد بن راشد ال مكتوم مدة الإجابة 3 دقائق إشترك الآن عدد الفائزين محدود  --> https://www.money-uae.com "];
 
 
 
