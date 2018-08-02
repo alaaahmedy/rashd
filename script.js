@@ -294,6 +294,6 @@ $(document).ready(function () {
 	$("#b2")
 		.on('click', function () {
 			if (c > 1) window.location = "http://asrar4u.com/rashd/final.html";
-			else window.alert(" الرجاء إرسال  على الأقل 30 مرة لتستتيطع الفوز ! \n\n المشاركات التي قمت بها  " + c);
+			else window.alert(" الرجاء إرسال  على الأقل 30 مرة لتستيطع الفوز ! \n\n المشاركات التي قمت بها  " + c);
 		});
 });
