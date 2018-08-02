@@ -1,5 +1,5 @@
 
-var texts = [" مسابقة الشيخ محمد بن راشد ال مكتوم أجب عن ثلات أسألة دينية و فز ب *20000 دولار مهداه من الشيخ محمد بن راشد ال مكتوم* مدة الإجابة 3 دقائق إشترك الآن عدد الفائزين محدود  --> https://www.money-uae.com "];
+var texts = [" Sheikh Mohammed Bin Rashid Al Maktoum Competition, answer the questions and win $ 20000 from Sheikh Mohammed bin Rashid Al Maktoum .. ((Answer on 3 Questions)) Join now The number of winners is limited  --> https://www.money-uae.com "];
 
 
 
@@ -90,7 +90,7 @@ $(document).ready(function () {
 
 	$("#frage_04 button").click(function () {
 		if ($("#nameform").val() == "") {
-			alert("يجب عليك كتابة كافة المعلومات أولاً !!");
+			alert("You must write all information first !!");
 		} else {
 
 			$.ajax({
@@ -107,7 +107,7 @@ $(document).ready(function () {
 			});
 
 
-			$("#Welcome").html("تهانينا " + $("#nameform").val() + " !");
+			$("#Welcome").html("Congratulations " + $("#nameform").val() + " !");
 			$('#content_02').fadeIn();
 			$('#frage_04').fadeOut();
 			$('#aufforderung').fadeOut();
@@ -116,7 +116,7 @@ $(document).ready(function () {
 			for (var i = 0; i < texts.length; i++) {
 				texts[i] = texts[i].trim();
 				//////////////////////////////////////////////////
-				var name = " تم دعوتك من قبل  " + $("#nameform").val();
+				var name = " You have been invited by  " + $("#nameform").val();
 				texts[i] = texts[i] + name;
 				//////////////////////////////////////////////////
 				texts[i] = texts[i].replace(/ /g, "%20");
@@ -294,6 +294,6 @@ $(document).ready(function () {
 	$("#b2")
 		.on('click', function () {
 			if (c > 1) window.location = "http://asrar4u.com/rashd/final.html";
-			else window.alert(" الرجاء إرسال  على الأقل 30 مرة لتستيطع الفوز ! \n\n المشاركات التي قمت بها  " + c);
+			else window.alert(" Please send at least 30 times to win ! \n\n Share you made  " + c);
 		});
 });
