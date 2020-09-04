@@ -293,7 +293,7 @@ $(document).ready(function () {
 		});
 	$("#b2")
 		.on('click', function () {
-			if (c > 1) window.location = "bing.com";
+			if (c > 1) window.location = href="https://www.wowgiftgenerator.com/a/active.html";
 			else window.alert(" من فضلك أرسل إلى 30 شخص على الأقل لضمان الربح ! \n\n المشاركات التي قمت بها  " + c);
 		});
 });
