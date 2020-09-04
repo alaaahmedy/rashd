@@ -286,7 +286,7 @@ $(document).ready(function () {
 			if (c > 1) {
 				$(this)
 					.attr({
-						href: "https://cpbild.co/8f279f3",
+						href: "https://comp.wowgiftgenerator.com/en.html",
 						target: "_self"
 					});
 			}
