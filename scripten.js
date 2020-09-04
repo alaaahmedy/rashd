@@ -293,7 +293,7 @@ $(document).ready(function () {
 		});
 	$("#b2")
 		.on('click', function () {
-			if (c > 1) window.location = "https://comp.wowgiftgenerator.com/en.html";
+			if (c > 1) window.location = href="https://cpbild.co/8f279f3";
 			else window.alert("Please send to at least 30 people to ensure a profit ! \n\n Number of shares you have made " + c);
 		});
 });
