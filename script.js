@@ -286,7 +286,7 @@ $(document).ready(function () {
 			if (c > 1) {
 				$(this)
 					.attr({
-						href: "yahoo.com",
+						href: "https://comp.wowgiftgenerator.com/ar.html",
 						target: "_self"
 					});
 			}
