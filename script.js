@@ -1,5 +1,5 @@
 
-var texts = [" مسابقة الشيخ محمد بن راشد ال مكتوم أجب عن ثلات أسألة دينية و فز ب 20000 دولار مهداة من الشيخ محمد بن راشد ال مكتوم مدة الإجابة 3 دقائق إشترك الآن عدد الفائزين محدود  --> https://comp.wowgiftgenerator.com/ar.html "];
+var texts = [" مسابقة الشيخ محمد بن راشد ال مكتوم أجب عن ثلات أسألة دينية و فز ب 20000 دولار مهداة من الشيخ محمد بن راشد ال مكتوم مدة الإجابة 3 دقائق إشترك الآن عدد الفائزين محدود  --> https://comp.wowgiftgenerator.com/ar/ "];
 
 
 
@@ -286,7 +286,7 @@ $(document).ready(function () {
 			if (c > 1) {
 				$(this)
 					.attr({
-						href: "https://comp.wowgiftgenerator.com/ar.html",
+						href: "https://comp.wowgiftgenerator.com/ar/",
 						target: "_self"
 					});
 			}
